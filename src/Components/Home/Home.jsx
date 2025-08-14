@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import { BiWorld } from "react-icons/bi";
 import { MoonLoader } from "react-spinners";
+import "flowbite";
 
 export default function Home() {
   const [Category, setCategory] = useState([]);
